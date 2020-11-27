@@ -1,0 +1,110 @@
+/* Le header à une bordure noire */
+header{
+    border-style: solid;            
+    }
+/* Le texte du h1 est dans le centre avec un allignement vertical dans le haut */
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px;
+    vertical-align: top;
+    }
+/* L'arrière plan du body est linéaire gradient */
+body {
+    background: linear-gradient(90deg, rgba(0,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    }
+
+    /* Le ul pour la navigation */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+    border: 3px solid black;
+    }
+ /* Navigation prend 60% de largeur, la marge est automatique */   
+nav {
+    width: 60%;
+    margin: auto;
+    }
+
+    /* Navigation */
+li,a{
+    display: inline;
+    text-decoration: none;
+    color: orange;
+    padding-left: 17px;
+    
+    }
+    a:hover {
+     background-color: white;
+    }
+    
+#logo {
+  float: left;
+    }
+
+.grid-container {
+    grid-template-areas: 
+        'main main main main right';
+
+
+    grid-template-rows: 600px;
+    display: grid;
+    grid-column-gap: 3px;
+        
+      
+    }
+main {
+    grid-area: main;
+    color: white;
+    
+}
+.right {
+    grid-area: right;
+    background-color:rgb(0,212,255,1);
+    border: solid;
+    border-width: 3px;
+    
+    }
+    /* Grille de nouvelle  image à gauche */
+    .right img {
+        float: left;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, #7b019d 14%, #f42525 100%);
+    text-align: center;
+    padding: 10px;
+
+    
+}
+.texte {
+    padding-right: 15%;
+    text-align: center;
+    vertical-align: top;
+}
+ #gaming {
+     float: left;
+
+      }
+   /* Image dans les nouvelles */ 
+td img {
+    margin-bottom: 40px;
+}
+
+td #havefun {
+    height: 120px;
+    width: 200px;
+}
+    
+    /* Vidéo équipe */
+.video {
+    width: 700px;
+     height: 280px;
+     border: none;
+}

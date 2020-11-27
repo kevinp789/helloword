@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidature</title>
+    <link rel="stylesheet" href="css/candidature.css">
+</head>
+
+<body>
+ 
+
+<header>
+    
+    
+    
+    
+    
+    <img id="logo" src="images/shark.jpg" alt="Personne jouant à un jeux vidéo">
+    <nav>
+        <h1 id="titre">Shark</h1>
+        
+    <!-- Navigation -->
+        <ul>
+            
+    
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="gallerie-images.html">Galerie</a></li>
+          <li><a href="equipe.html">Équipe</a></li>
+          <li><a href="candidature.html">Candidature</a></li>
+        
+           
+        </ul>
+        
+    </nav>
+    
+    
+    <!-- Formulaire-->
+</header>
+<div class="grid-container">
+        <main>
+            <div id="page">
+             <section id="formulaire">
+            <h2>Poser sa candidature</h2>
+            <p>Tu veux te joindre à une équipe ? Tu es compétitif et tu aimes beaucoup la compétition ? </p> 
+            <p>Tu as toujours rêvé de finir dans les meilleurs ? Ici ton rêve commence !</p>
+
+            <form action="confirmation.html" method="post">
+            
+            <label id="Name"  for="Nom">Nom</label>
+            <input type="text" name="Nom" id="Nom" required>
+
+            <label id="Prenom" for="Prénom"> Prénom</label>
+            <input type="text" name="Prénom" id="Prénom" required> <br>
+
+            <label id="Mail" for="Courriel">Courriel</label>
+            <input type="email" name="Courriel" id="Courriel" required>
+
+            <label id="Gamer" for="Discord">Discord</label>
+            <input type="text" name="Discord" id="Discord" required> <br>
+
+            <label id="Game" for="jeux">Jeux</label>
+            <select name="jeux" id="jeux">
+             <option value="Wg">Wgt Golf</option>
+             <option value="De">Destiny</option>
+             <option value="Co">Call of Duty</option>
+            </select> 
+             
+            <label id="liste" for="lstdispo">Disponibilités</label>
+            <select name="lstdispo" id="lstdispo">
+            <option value="Ma">Matin</option>
+            <option value="Mi">Midi</option>
+            <option value="So">Soir</option>
+            </select> <br>
+
+            <p>Pourquoi désirez-vous rejoindre notre équipe?</p> <br>
+            <label for="raison"></label>
+            <input type="text" name="raison" id="raison" required> <br>
+
+            <label for="Date">Date de début</label>
+            <input type="date" name="Date" id="Date" required>
+
+            <input type="submit" value="Envoyer">
+
+
+
+            
+
+            </form>
+
+            </section>
+            </div>
+            
+        </main>
+        <!-- Les nouvelles -->
+        
+        <div class="right">
+            <h2>Nouvelles</h2>
+            <table>
+                
+                <tr> 
+            <td><img src="images/winner.jpg" alt="Personne gagnant un tournoi"></td>
+            <td><p>Jimmy le meilleur joueur des sharks, les aident à remporter</p></td>
+            </tr>
+
+            <tr><td><img src="images/destiny.jpg" alt="destiny player"> </td>
+                <td><p> Les joueurs de destiny sont rendus dans la final du monde</p> </td>
+            </tr>
+
+            <tr>
+                <td><img id="havefun" src="images/have-fun.jpg" alt="Joueur ayant du plaisir"></td>
+                <td><p>Les joueurs de golf sont maintenant en final contre la dernière meilleure équipe au monde. </p> </td>
+            </tr>
+            </table>
+        </div>
+    
+
+</div>
+
+
+<!-- Bas de page -->
+<footer>
+<pre> Shark                   Kévin Pagé                                2020  </pre>
+
+
+</footer>
+
+
+    
+</body>
+</html>
